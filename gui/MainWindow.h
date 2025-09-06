@@ -32,7 +32,7 @@ public:
 
 private:
 
-    UndoRedoDialog* undoRedoDialog = nullptr;
+    //UndoRedoDialog* undoRedoDialog = nullptr; //modified this, not it is on the main window, no need for different dialogue
     Service& service;
     QStackedWidget *stackedWidget;
     std::string whereToSaveFile;

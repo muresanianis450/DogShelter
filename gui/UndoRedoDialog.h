@@ -4,7 +4,7 @@
 
 #include <QDialog>
 #include <QPushButton>
-#include "Service.h"  // Or whatever header defines your service
+#include "../service/Service.h"
 
 class UndoRedoDialog : public QDialog {
     Q_OBJECT

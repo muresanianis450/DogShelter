@@ -9,8 +9,8 @@
 #include <QDialog>
 #include <QLineEdit>
 #include <QPushButton>
-#include "service/service.h"
-#include "adoption/AdoptionListFactory.h"
+#include "../service/service.h"
+#include "../adoption/AdoptionListFactory.h"
 #include <memory>
 
 class ShowByBreedDialog : public QDialog {

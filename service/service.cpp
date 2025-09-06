@@ -1,11 +1,11 @@
 #include "service.h"
 #include "../validator/validator.h"
 #include "../exceptions/CustomExceptions.h"
-#include "undoRedo/AddDogCommand.h"    // Include command headers
-#include "undoRedo/RemoveDogCommand.h"
-#include "undoRedo/UpdateDogCommand.h"
+#include "../undoRedo/AddDogCommand.h"    // Include command headers
+#include "../undoRedo/RemoveDogCommand.h"
+#include "../undoRedo/UpdateDogCommand.h"
 #include <QMessageBox> // For error messages, if you want them here too
-#include "undoRedo/AdoptDogCommand.h"
+#include "../undoRedo/AdoptDogCommand.h"
 //Constructor
 Service::Service(): repo(TextFileRepository("dogs.txt")) {
     this->adoptedDogs = std::vector<Dog>();

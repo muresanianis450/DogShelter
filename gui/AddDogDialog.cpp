@@ -6,7 +6,7 @@
 #include <QVBoxLayout>
 #include <QFormLayout>
 #include <QMessageBox>
-#include "undoRedo/AddDogCommand.h"
+#include "../undoRedo/AddDogCommand.h"
 
 AddDogDialog::AddDogDialog(Service& service,const QString& whereToSaveFile, QWidget *parent)
     : QDialog(parent),whereToSaveFile(whereToSaveFile), service(service) {

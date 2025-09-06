@@ -3,7 +3,7 @@
 #include <QDialog>
 #include <QLineEdit>
 #include <QPushButton>
-#include "service/service.h"
+#include "../service/service.h"
 #include "QVBoxLayout"
 #include <QFormLayout>
 #include <QMessageBox>

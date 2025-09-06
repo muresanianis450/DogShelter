@@ -11,9 +11,9 @@
   #include "ShowByBreedDialog.h"
 #include "ShowAllAdoptedDialog.h"
 #include "ChartDialog.h"
-#include <QMessageBox> // For error messages
-#include <QKeySequence> // For keyboard shortcuts
-#include <../gui/AdoptedDogsTableModel.h>
+#include <QMessageBox>
+#include <QKeySequence>
+#include "../gui/AdoptedDogsTableModel.h"
   MainWindow::MainWindow(Service& service, QWidget *parent)
       : QMainWindow(parent), service(service), stackedWidget(new QStackedWidget(this)){
 
@@ -27,7 +27,7 @@
 
       setupShortcuts();
 
-      // ✅ Only now it's safe to create pages using those buttons
+
       stackedWidget->addWidget(createStartPage());
       stackedWidget->addWidget(createModePage());
       stackedWidget->addWidget(createAdminPage());

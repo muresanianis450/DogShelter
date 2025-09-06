@@ -4,7 +4,7 @@
 
 #ifndef VALIDATOR_H
 #define VALIDATOR_H
-#include "Dog.h"
+#include "../domain/Dog.h"
 
 
 class Validator {

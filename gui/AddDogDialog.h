@@ -7,7 +7,7 @@
 #include <QDialog>
 #include <QLineEdit>
 #include <QPushButton>
-#include "service/service.h"
+#include "../service/service.h"
 
 class AddDogDialog : public QDialog {
     Q_OBJECT

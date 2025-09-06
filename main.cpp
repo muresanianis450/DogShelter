@@ -1,7 +1,7 @@
 #include <QApplication>
 #include <QPushButton>
-#include "src/service/Service.h"
-#include "src/gui/MainWindow.h"
+#include "service/Service.h"
+#include "gui/MainWindow.h"
 
 //#include "QTGUI.h"
 int main(int argc, char *argv[]) {

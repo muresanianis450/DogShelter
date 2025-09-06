@@ -6,7 +6,7 @@
 #include "../domain/Dog.h"
 #include <vector>
 #include <string>
-#include "undoRedo/UndoRedoManager.h" // Include the new manager
+#include "../undoRedo/UndoRedoManager.h" // Include the new manager
 
 class Service {
 private:

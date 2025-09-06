@@ -5,10 +5,10 @@
 #ifndef REMOVEDOGDIALOG_H
 #define REMOVEDOGDIALOG_H
 #include <QDialog>
-#include "gui/MainWindow.h"
+#include "../gui/MainWindow.h"
 #include <QLineEdit>
 #include <QPushButton>
-#include "service/service.h"
+#include "../service/service.h"
 
 
 class RemoveDogDialog : public QDialog{
